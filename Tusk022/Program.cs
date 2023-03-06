@@ -11,7 +11,7 @@ Quart(number);
 void Quart (int n)
 {
     for (int i = 1; i <= n; i++)
-    Console.WriteLine($"квадрат числа {i}-{i*i}");
+    Console.WriteLine($"Кубы числа {i}-{Math.Cbrt(i)}");
 }
 
 
